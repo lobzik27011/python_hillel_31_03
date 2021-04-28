@@ -52,6 +52,14 @@ print(my_result)
 # которые встречаются в строке только один раз.
 
 my_str = 'Я люблю кушать бургеры =)))'
+my_result = []
+for i in my_str:
+    if my_str.count(i) == 1:
+        my_result.append(i)
+print(my_result)
+
+
+my_str = 'Я люблю кушать бургеры =)))'
 my_result = list(set(my_str))
 print(my_result)
 

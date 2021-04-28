@@ -6,11 +6,6 @@
 persons = [{"name": "John", "age": 15}, {"name": "Dimitry", "age": 15}, {"name": "Jack", "age": 45}]
 
 
-
-# for minimum in persons:
-#     age_user_list.append(list(minimum.values())[1])
-#
-# age_user_list = min(age_user_list)
 age_list = []
 
 for user_age in persons:
@@ -19,21 +14,6 @@ for user_age in persons:
         print(user_age.get('name'))
 
 print(age_list)
-
-
-    # print(user_age)
-    # print(user_age.get('age'))
-
-    # if user_age.get('age')
-
-
-
-    # print(user_age.get('name'))
-    # if list(user_age.values())[1] == age_user_list:
-    #     print(user_age.get('name'))
-    #
-
-# print(dict(persons).values())
 
 ####################################################################################################################
 # 2) Даны два словаря my_dict_1 и my_dict_2.
