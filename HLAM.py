@@ -14,14 +14,14 @@
 # my_result = set(my_result_1).intersection(set(my_result_2))
 # print(my_result)
 
-my_str_1 = 'сихафазатрон'
-my_str_2 = 'ликвидность'
-my_result = []
-
-for i in my_str_1:
-    if my_str_1.count(i) == 1 and my_str_2.count(i) == 1:
-        my_result.append(i)
-print(my_result)
-
+# my_str_1 = 'сихафазатрон'
+# my_str_2 = 'ликвидность'
+# my_result = []
+#
+# for i in my_str_1:
+#     if my_str_1.count(i) == 1 and my_str_2.count(i) == 1:
+#         my_result.append(i)
+# print(my_result)
 
 ##################################################################################################
+
