@@ -74,12 +74,23 @@ print(list(my_result))
 
 my_str_1 = 'сихафазатрон'
 my_str_2 = 'ликвидность'
+my_chars = set(my_str_1).intersection(set(my_str_2))
 my_result = []
 
-for i in my_str_1:
+for i in my_chars:
     if my_str_1.count(i) == 1 and my_str_2.count(i) == 1:
         my_result.append(i)
 print(my_result)
+
+
+# my_str_1 = 'сихафазатрон'
+# my_str_2 = 'ликвидность'
+# my_result = []
+#
+# for i in my_str_1:
+#     if my_str_1.count(i) == 1 and my_str_2.count(i) == 1:
+#         my_result.append(i)
+# print(my_result)
 
 ##################################################################################################
 # 8. Описать с помощью словаря следующую структуру для конкретного человека (можно придумать):
