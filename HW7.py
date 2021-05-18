@@ -3,7 +3,7 @@
 # б) Напечатать самое длинное имя. Если длина имени совпадает - напечатать все имена.
 # в) Посчитать среднее количество лет всех людей из списка.
 
-persons = [{"name": "John", "age": 15}, {"name": "Dimitry", "age": 11}, {"name": "Jack", "age": 45}]
+persons = [{"name": "John", "age": 15}, {"name": "Dimitry", "age": 177}, {"name": "John", "age": 45}]
 
 # найти имя самого молодого человека
 age_min = persons[0]["age"]
@@ -27,7 +27,13 @@ for user_name_max in persons:
     if len(user_name_max["name"]) > len(max_name):
         max_name = user_name_max['name']
 
-print(max_name)
+max_name_user = []
+
+for name_user_max in persons:
+    if len(name_user_max["name"]) == len(max_name):
+        max_name_user.append(name_user_max["name"])
+
+print(max_name_user)
 
 # найти средний возвраст
 middle_age = []
