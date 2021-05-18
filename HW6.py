@@ -64,8 +64,8 @@ print(my_result)
 
 my_str = 'Я люблю кушать бургеры =)))'
 my_str_2 = 'Как же я хочу в отпуск'
-my_result = set(my_str).intersection(set(my_str_2))
-print(list(my_result))
+my_result = list(set(my_str).intersection(set(my_str_2)))
+print(my_result)
 
 
 ##################################################################################################
